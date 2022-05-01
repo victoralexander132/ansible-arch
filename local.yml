@@ -26,10 +26,15 @@
         - nitrogen
         - xf86-video-fbdev
         - firefox
+        - virtualbox-guest-utils
 
   - name: Enabling lightdm
     service:
       name: lightdm
+      enabled: yes
+  - name: Enable vboxutils
+    service:
+      name: vboxservice
       enabled: yes
 
   - name: Set graphical target lightdm
