@@ -10,3 +10,9 @@
         - htop
         - neofetch
         - lightdm
+
+  - name: Enabling lightdm
+    service:
+      name:
+        - lightdm
+      enabled: yes
