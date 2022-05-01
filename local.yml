@@ -23,3 +23,6 @@
     service:
       name: lightdm
       enabled: yes
+
+  - name: Set graphical target lightdm
+    command: systemctl set-default graphical.target
