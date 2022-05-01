@@ -3,10 +3,10 @@
   connection: local
   become: true
 
-  -tasks:
+  tasks:
   - name: install packages
     package:
       name:
         - htop
         - neofetch
-        - tmux
+        - tmuxhttps://github.com/victoralexander132/ansible-arch.git
