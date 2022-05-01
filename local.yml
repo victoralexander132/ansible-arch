@@ -8,7 +8,7 @@
     package:
       name:
         - xorg
-        - xinit
+        - xorg-xinit
         - htop
         - neofetch
         - lightdm
