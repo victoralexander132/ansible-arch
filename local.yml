@@ -10,6 +10,10 @@
         - htop
         - neofetch
         - lightdm
+        - qtile
+        - picom
+        - kitty
+        - dconf-editor
 
   - name: Enabling lightdm
     service:
