@@ -8,10 +8,13 @@
     package:
       name:
         - xorg
+        - xinit
         - htop
         - neofetch
         - lightdm
+        - sddm
         - qtile
+        - xterm
         - picom
         - kitty
         - dconf-editor
