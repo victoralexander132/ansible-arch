@@ -21,6 +21,8 @@
         - picom
         - kitty
         - dconf-editor
+        - nitrogen
+        - xf86-video-fbdev
 
   - name: Enabling lightdm
     service:
