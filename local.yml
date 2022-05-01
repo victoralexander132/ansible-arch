@@ -9,7 +9,7 @@
       name:
         - xorg
         - xorg-xinit
-        - xorg-sever
+        - xorg-server
         - htop
         - neofetch
         - lightdm
