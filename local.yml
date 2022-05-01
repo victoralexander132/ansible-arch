@@ -10,6 +10,7 @@
         - xorg
         - xorg-xinit
         - xorg-server
+        - xorg-server-xephyr
         - htop
         - neofetch
         - lightdm
