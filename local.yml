@@ -9,9 +9,11 @@
       name:
         - xorg
         - xorg-xinit
+        - xorg-sever
         - htop
         - neofetch
         - lightdm
+        - lightdm-gtk-greeter
         - sddm
         - qtile
         - xterm
