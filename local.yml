@@ -27,6 +27,9 @@
         - xf86-video-fbdev
         - firefox
         - virtualbox-guest-utils
+        - base-devel
+        - net-tools
+        - python-pip
 
   - name: Enabling lightdm
     service:
