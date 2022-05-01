@@ -23,7 +23,7 @@
         - dconf-editor
         - nitrogen
         - xf86-video-fbdev
-        - brave
+        - firefox
 
   - name: Enabling lightdm
     service:
