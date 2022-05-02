@@ -32,7 +32,7 @@
         - python-pip
 
   - name: Install aur packages
-    pacman:
+    community.general.pacman:
       name:
         - nerd-fonts-ubuntu-mono
       state: present
@@ -42,7 +42,7 @@
     service:
       name: lightdm
       enabled: yes
-      
+
   - name: Enable vboxutils
     service:
       name: vboxservice
