@@ -4,7 +4,7 @@
   become: true
 
   tasks:
-  - name: install packages
+  - name: Install packages
     package:
       name:
         - xorg
@@ -31,10 +31,18 @@
         - net-tools
         - python-pip
 
+  - name: Install aur packages
+    pacman:
+      name:
+        - nerd-fonts-ubuntu-mono
+      state: present
+      executable: yay
+
   - name: Enabling lightdm
     service:
       name: lightdm
       enabled: yes
+      
   - name: Enable vboxutils
     service:
       name: vboxservice
