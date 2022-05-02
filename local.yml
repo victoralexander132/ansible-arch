@@ -61,7 +61,7 @@
       validate: 'visudo -cf %s'
   
   - name: Install aur packages
-    aur:
+    kewlfft.aur.aur:
       use: yay
       name:
         - nerd-fonts-ubuntu-mono
