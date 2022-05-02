@@ -31,7 +31,6 @@
         - net-tools
         - python-pip
 
-
   - name: Enabling lightdm
     service:
       name: lightdm
@@ -45,18 +44,4 @@
   - name: Set graphical target lightdm
     command: systemctl set-default graphical.target
 
-  - user: name=aur_builder
-  
-  - lineinfile:
-       path: /etc/sudoers.d/aur_builder-allow-to-sudo-pacman
-       state: present
-       line: "aur_builder ALL=(ALL) NOPASSWD: /usr/bin/pacman"
-       validate: /usr/sbin/visudo -cf %s
-       create: yes
-  
-  - name: Install aur packages
-  community.general.pacman:
-    name:
-      - nerd-fonts-ubuntu-mono
-    state: present
-    executable: yay
+    
